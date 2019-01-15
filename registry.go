@@ -33,9 +33,9 @@ type qid struct {
 }
 
 var (
-	ErrUnknownType = errors.New("easyreg: unknown provided type of registry value")
-	ErrLocationArg = errors.New("easyreg: your not set any data in `location` argument")
-	ErrNamesArg    = errors.New("easyreg: your not set name data in `names` argument")
+	ErrUnknownType = errors.New("unknown provided type of registry value")
+	ErrLocationArg = errors.New("your not set any data in `location` argument")
+	ErrNamesArg    = errors.New("your not set name data in `names` argument")
 )
 
 var mu sync.RWMutex
