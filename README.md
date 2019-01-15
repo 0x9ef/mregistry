@@ -1,2 +1,2 @@
-# Multiple registry - Library for working with miltiple registry values 
+# Multiple registry - Library for working with multiple registry values 
 All examples in registry_test.go 
