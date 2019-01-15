@@ -26,8 +26,10 @@ const (
 
 // QID - Quattro Formaggi
 // QID have 2 different values:
-// ... 0 - StringValue
-// ... 1 - ExpandStringValue
+// ... 1 - DWordValue
+// ... 2 - QWordValue
+// ... 3 - StringValue
+// ... 4 - StringExpandValue
 type qid struct {
 	vtype int
 }
