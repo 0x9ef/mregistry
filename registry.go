@@ -90,7 +90,6 @@ func (q qkey) setCustomDQValues(id qid, names []string, dwordv []uint32, qwordv 
 		return ErrUnknownType
 	}*/
 	if id.vtype == DWORD {
-		wait.Add(len(dwordv))
 		if len(qwordv) == 0 && cap(qwordv) == 0 {
 			for i, _ := range names {
 				if err = key.SetDWordValue(names[i], dwordv[i]); err != nil {
