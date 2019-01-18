@@ -1,4 +1,4 @@
-package easyreg
+package mregistry
 
 import (
 	"errors"
